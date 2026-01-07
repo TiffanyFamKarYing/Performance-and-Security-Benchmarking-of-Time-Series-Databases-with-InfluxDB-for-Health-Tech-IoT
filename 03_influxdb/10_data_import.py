@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-InfluxDB Data Import Script
-Imports health IoT data from CSV into InfluxDB
+Imports health IoT data import script from CSV into InfluxDB
 """
 
 import argparse
@@ -577,3 +576,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
