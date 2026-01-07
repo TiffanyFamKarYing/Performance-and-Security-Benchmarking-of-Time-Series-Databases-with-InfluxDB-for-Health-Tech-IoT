@@ -15,15 +15,3 @@ This project benchmarks three database systems (PostgreSQL/TimescaleDB, InfluxDB
 1. **PostgreSQL/TimescaleDB**: With Row-Level Security (RLS)
 2. **InfluxDB**: With token-based security
 3. **MongoDB**: With role-based access control
-
----
-
-## Cleaning old outputs ✅
-
-A new optional flag `--keep-only-current` is available for the results collector (`05_becnhmarking/24_results_collector.py`). When passed along with `--run-id`, the collector will remove output files in `outputs/` that do not contain the specified run ID (safe file extensions only). Use `--dry-run` to preview which files would be deleted without removing them.
-
-Example:
-
-```bash
-python3 05_becnhmarking/24_results_collector.py --run-id run_20260107_181203 --keep-only-current --dry-run
-```
