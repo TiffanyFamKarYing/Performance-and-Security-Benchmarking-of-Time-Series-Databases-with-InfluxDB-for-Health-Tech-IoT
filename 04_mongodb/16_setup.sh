@@ -1,5 +1,5 @@
 #!/bin/bash
-# MONGODB SETUP SCRIPTS
+# MONGODB SETUP SCRIPT
 
 set -e  # Exit on error
 
