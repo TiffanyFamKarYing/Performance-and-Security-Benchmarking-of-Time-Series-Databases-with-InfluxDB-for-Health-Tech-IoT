@@ -1,6 +1,6 @@
 #!/bin/bash
 # Health IoT Database Benchmarking - Complete Test Runner
-# Run all tests across PostgreSQL, InfluxDB, and MongoDB
+# Run all the tests across PostgreSQL, InfluxDB, and MongoDB
 
 set -e
 
